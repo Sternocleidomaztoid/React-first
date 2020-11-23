@@ -154,30 +154,30 @@ class Nalgas extends React.Component {
 
 ReactDOM.render(<Nalgas />, document.getElementById("secundo"));
 
-class Blog extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      articles: [
-        "Mi primer componente en React",
-        "Introduccion a React",
-        "Que es React"
-      ]
-    };
-  }
+//class Blog extends React.Component {
+  //constructor(props) {
+    //super(props);
+    //this.state = {
+      //articles: [
+        //"Mi primer componente en React",
+        //"Introduccion a React",
+        //"Que es React"
+      //]
+    //};
+  //}
 
-  render() {
-    return (
-      <div>
-        {this.state.articles.map(title => {
-          return <p>{title}</p>;
-        })}
-      </div>
-    );
-  }
-}
+  //render() {
+    //return (
+      //<div>
+        //{this.state.articles.map(title => {
+          //return <p>{title}</p>;
+        //})}
+      //</div>
+    //);
+  //}
+//}
 
-ReactDOM.render(<Blog />, document.getElementById("terqueto"));
+//ReactDOM.render(<Blog />, document.getElementById("terqueto"));
 
 class Lista extends React.Component {
   constructor(props) {
