@@ -217,3 +217,5 @@ class Lista extends React.Component {
 ReactDOM.render(<Lista />, document.getElementById("cuarqueto"));
 // este ultimo lo que hace es que al establecer una base de datos
 //reconocer sus objetos y devolverlos como texto dentro del div
+
+
